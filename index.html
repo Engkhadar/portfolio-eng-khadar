@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Eng-Khadar (Mohamad Abdirahman Hassan) - IT Student, Full Stack Developer, Mobile Repair Specialist & Electrical Technician based in Somalia.">
+    <meta name="keywords" content="Eng-Khadar, Mohamad Abdirahman Hassan, Portfolio, Full Stack Developer, Web Developer, Mobile Repair, Electrical Technician, Somalia, IT student">
+    <meta name="author" content="Eng-Khadar">
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Eng-Khadar | Personal Portfolio">
+    <meta property="og:description" content="IT Specialist, Full Stack Developer, Mobile Repair & Electrical Installation Expert. Check out my projects and skills.">
+    <meta property="og:image" content="assets/profile.jpg">
+    <meta property="og:url" content="https://github.com/Engkhadar">
+    
+    <title>Eng-Khadar | Premium Personal Portfolio</title>
+    
+    <!-- FontAwesome 6.4.0 (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- EmailJS SDK CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body class="no-scroll">
+
+    <!-- Custom Cursor Effects -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Ambient Glow / Grid Animations Background -->
+    <div class="ambient-bg">
+        <div class="ambient-glow-1"></div>
+        <div class="ambient-glow-2"></div>
+        <div class="ambient-glow-3"></div>
+    </div>
+
+    <!-- Loading Screen (Preloader) -->
+    <div id="preloader" class="preloader">
+        <div class="loader-logo">ENG-KHADAR</div>
+        <div class="loader-bar-container">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Header & Sticky Navigation -->
+    <header id="header" class="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo">ENG-<span>KHADAR</span></a>
+            
+            <nav>
+                <ul id="nav-links" class="nav-links">
+                    <li><a href="#hero" class="nav-item active">Home</a></li>
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#skills" class="nav-item">Skills</a></li>
+                    <li><a href="#services" class="nav-item">Services</a></li>
+                    <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+                    <li><a href="#experience" class="nav-item">Experience</a></li>
+                    <li><a href="#certificates" class="nav-item">Certificates</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Light/Dark Mode Switch -->
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle ThemeMode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                
+                <!-- Hamburger Mobile Menu Trigger -->
+                <div id="menu-toggle" class="menu-toggle" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content wrapper -->
+    <main>
+        
+        <!-- 1. Hero Section -->
+        <section id="hero" class="hero">
+            <div class="section-container hero-grid">
+                
+                <!-- Hero Left: Copywriting content -->
+                <div class="hero-content reveal-left">
+                    <div class="hero-tag">
+                        <span></span> Available for Freelance & Technical Work
+                    </div>
+                    <h1 class="hero-title">Hi, I'm <br><span class="gradient-text">Mohamad Abdirahman</span></h1>
+                    <div class="hero-subtitle">
+                        I am a <span id="typewriter" class="accent-text" data-words='["IT Student", "Full Stack Developer", "Mobile Repair Technician", "Electrical Technician"]'></span>
+                    </div>
+                    <p class="hero-desc">
+                        A passionate technical specialist solving real-world challenges. From engineering responsive full-stack websites to hardware engineering and electrical integrations.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Hire Me <i class="fa-solid fa-paper-plane"></i></a>
+                        <a href="assets/CV.pdf" target="_blank" class="btn btn-secondary">View CV <i class="fa-regular fa-eye"></i></a>
+                        <a href="assets/CV.pdf" download="Mohamad_Abdirahman_Hassan_CV.pdf" class="btn btn-outline">Download CV <i class="fa-solid fa-arrow-down-to-bracket"></i></a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span>CONNECT WITH ME</span>
+                        <a href="https://github.com/Engkhadar" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.me/252906811242" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <!-- <a href="mailto:maxamedkhadar2012@gmail.com" class="social-icon" aria-label="Email"><i class="fa-regular fa-envelope"></i></a> -->
+                        <a href="tel:+252904302042" class="social-icon" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                        <a href="https://www.tiktok.com/@khadarmobilerepairs19" class="social-icon" aria-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Hero Right: Premium Image Showcase -->
+                <div class="hero-visual reveal-right">
+                    <div class="profile-container">
+                        <div class="profile-frame">
+                            <img src="assets/ sawir1 (1).png" alt="Mohamad Abdirahman Hassan" class="profile-img">
+                        </div>
+                        <div class="profile-deco-1"></div>
+                        <div class="profile-deco-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Me Section -->
+        <section id="about" class="about">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">About Me</span>
+                    <h2 class="section-title">Discover My Journey</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <!-- About Left: Stats Showcase -->
+                    <div class="about-visual reveal-left">
+                        <div class="glass-card about-info-item" style="padding: 40px; flex-direction: column; align-items: flex-start; gap: 30px;">
+                            <h3 class="gradient-text" style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800;">Solving Real-World Problems Through Tech</h3>
+                            
+                            <div class="about-info-grid" style="width: 100%;">
+                                <div class="glass-card about-info-item">
+                                    <div class="about-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <div class="about-info-content">
+                                        <h4>Location</h4>
+                                        <p>Somalia</p>
+                                    </div>
+                                </div>
+                                <div class="glass-card about-info-item">
+                                    <div class="about-info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                    <div class="about-info-content">
+                                        <h4>Education</h4>
+                                        <p>IT Student</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="about-stats">
+                                <div class="stat-item">
+                                    <div class="stat-num">3+</div>
+                                    <div class="stat-label">Years Learning & Tech</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-num">20+</div>
+                                    <div class="stat-label">Projects Completed</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-num">100%</div>
+                                    <div class="stat-label">Commitment Rate</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- About Right: Description -->
+                    <div class="about-details reveal-right">
+                        <p class="about-text">
+                            I am a passionate Information Technology student with practical experience in web development, database management, mobile phone software and hardware repair, and electrical installation. I enjoy building modern, responsive, and user-friendly web applications using HTML, CSS, JavaScript, PHP, and MySQL. I am committed to continuous learning and solving real-world problems through technology.
+                        </p>
+                        <p class="about-text" style="font-size: 1rem; opacity: 0.85;">
+                            My diverse technical background enables me to tackle challenges with a holistic mindset. Whether writing software, diagnosing complex circuitry, or structuring complex database relationships, I focus on standard safety protocols, clean architecture, and dynamic layouts.
+                        </p>
+                        <div style="margin-top: 10px;">
+                            <a href="#contact" class="btn btn-primary">Get In Touch <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Expertise</span>
+                    <h2 class="section-title">Technical Skills & Strengths</h2>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Column 1: Software & Web Development -->
+                    <div class="skills-column reveal-left">
+                        <h3><i class="fa-solid fa-laptop-code"></i> Software & Web Development</h3>
+                        
+                        <div class="skill-list">
+                            <!-- Skill 1 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-pct">95%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="95%"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Skill 2 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-pct">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="90%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 3 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Bootstrap Framework</span>
+                                    <span class="skill-pct">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="90%"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Skill 4 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript (Vanilla ES6+)</span>
+                                    <span class="skill-pct">80%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="80%"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Skill 5 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PHP (Server Scripting)</span>
+                                    <span class="skill-pct">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="85%"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Skill 6 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL (Relational Databases)</span>
+                                    <span class="skill-pct">70%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="70%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Skill 7 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Flutter (Mobile Framework)</span>
+                                    <span class="skill-pct">40%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Column 2: Engineering & Diagnostics -->
+                    <div class="skills-column reveal-right">
+                        <h3><i class="fa-solid fa-microchip"></i> Hardware & Technical Skills</h3>
+                        
+                        <div class="skill-list">
+                            <!-- Tech Skill 1 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Mobile Phone Software Diagnostics</span>
+                                    <span class="skill-pct">95%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="95%"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Tech Skill 2 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Mobile Phone Hardware Repair (Micro-soldering)</span>
+                                    <span class="skill-pct">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="90%"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Tech Skill 3 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Electrical Installation (Residential)</span>
+                                    <span class="skill-pct">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="90%"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Tech Skill 4 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Electrical Maintenance & Circuit Troubleshooting</span>
+                                    <span class="skill-pct">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="85%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Tech Skill 5 -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Operating Systems & Network Administration</span>
+                                    <span class="skill-pct">80%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Services Section -->
+        <section id="services" class="services">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">What I Do</span>
+                    <h2 class="section-title">My Professional Services</h2>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="glass-card service-card reveal reveal-scale delay-100">
+                        <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3 class="service-title">Website Development</h3>
+                        <p class="service-desc">Creating premium, responsive, and secure custom web platforms using HTML, CSS, JavaScript, PHP, and database models tailored to client specifications.</p>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="glass-card service-card reveal reveal-scale delay-200">
+                        <div class="service-icon"><i class="fa-solid fa-crop-simple"></i></div>
+                        <h3 class="service-title">Frontend Development</h3>
+                        <p class="service-desc">Converting static designs into interactively stunning user interfaces using modern CSS practices, custom animations, and responsive accessibility benchmarks.</p>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="glass-card service-card reveal reveal-scale delay-300">
+                        <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+                        <h3 class="service-title">Backend Development</h3>
+                        <p class="service-desc">Writing highly performant server scripts, business logics, API endpoints, and authentication modules with standard clean-coded PHP templates.</p>
+                    </div>
+                    
+                    <!-- Service 4 -->
+                    <div class="glass-card service-card reveal reveal-scale delay-100">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3 class="service-title">Database Design</h3>
+                        <p class="service-desc">Structuring efficient relational databases with MySQL, optimizing schemas, index queries, and ensuring secure client/admin transaction integrity.</p>
+                    </div>
+                    
+                    <!-- Service 5 -->
+                    <div class="glass-card service-card reveal reveal-scale delay-200">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h3 class="service-title">Mobile Phone Repair</h3>
+                        <p class="service-desc">Professional diagnostics and fixing of mobile devices. Expert software flashes, component re-soldering, battery replacements, and screen restorations.</p>
+                    </div>
+                    
+                    <!-- Service 6 -->
+                    <div class="glass-card service-card reveal reveal-scale delay-300">
+                        <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3 class="service-title">Electrical Installation</h3>
+                        <p class="service-desc">Planning residential power distribution, laying cables safely, mounting breaker units, and conducting robust troubleshooting tests.</p>
+                    </div>
+
+                    <!-- Service 7 -->
+                    <div class="glass-card service-card reveal reveal-scale delay-400">
+                        <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+                        <h3 class="service-title">Technical Support</h3>
+                        <p class="service-desc">Providing rapid response diagnosing operating systems, hardware setups, software updates, and network troubleshooting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Portfolio</span>
+                    <h2 class="section-title">Selected Projects</h2>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <article class="glass-card portfolio-card reveal-left">
+                        <div class="portfolio-img-wrapper">
+                            <img src="images/food-system.jpg" alt="Online Food Ordering System" class="portfolio-img">
+                            <div class="portfolio-img-overlay">
+                                <a href="https://github.com/Engkhadar" target="_blank" class="btn btn-primary" aria-label="View Project Source"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-badges">
+                                <span class="portfolio-badge">HTML5</span>
+                                <span class="portfolio-badge">CSS3</span>
+                                <span class="portfolio-badge">JavaScript</span>
+                                <span class="portfolio-badge">PHP</span>
+                                <span class="portfolio-badge">MySQL</span>
+                            </div>
+                            <h3 class="portfolio-title">Online Food Ordering System</h3>
+                            <p class="portfolio-desc">
+                                A dynamic multi-portal ordering framework supporting real-time shopping carts, secure mobile payments, customized recipe categories, and a dedicated admin interface to streamline delivery statuses.
+                            </p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/Engkhadar" target="_blank" class="btn btn-primary">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/Engkhadar" target="_blank" class="btn btn-secondary">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 2 -->
+                    <article class="glass-card portfolio-card reveal-right">
+                        <div class="portfolio-img-wrapper">
+                            <img src="images/hotel-system.jpg" alt="Hotel Booking System" class="portfolio-img">
+                            <div class="portfolio-img-overlay">
+                                <a href="https://github.com/Engkhadar" target="_blank" class="btn btn-primary" aria-label="View Project Source"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-badges">
+                                <span class="portfolio-badge">HTML5</span>
+                                <span class="portfolio-badge">CSS3</span>
+                                <span class="portfolio-badge">JavaScript</span>
+                                <span class="portfolio-badge">PHP</span>
+                                <span class="portfolio-badge">MySQL</span>
+                            </div>
+                            <h3 class="portfolio-title">Hotel Booking System</h3>
+                            <p class="portfolio-desc">
+                                An interactive hotel room reservation dashboard including room tier filters, calendar scheduler, check-in validation rules, and structured customer invoicing models.
+                            </p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/Engkhadar" target="_blank" class="btn btn-primary">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/Engkhadar" target="_blank" class="btn btn-secondary">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Experience Section -->
+        <section id="experience" class="experience">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Career Timeline</span>
+                    <h2 class="section-title">Experience & Education</h2>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal-left">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-content">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h3 class="timeline-title">Information Technology Student</h3>
+                            <p class="timeline-org">Somali University / Academic Institution</p>
+                            <p class="timeline-desc">Engaged in advanced technical studies regarding data structures, database administration, networking principles, web security, and software architectural models.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal-right">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-content">
+                            <span class="timeline-date">2022 - Present</span>
+                            <h3 class="timeline-title">Freelance Full Stack Web Developer</h3>
+                            <p class="timeline-org">Somalia / Remote Projects</p>
+                            <p class="timeline-desc">Developing custom database solutions and responsive, modern frontend interfaces for local business operations and client requirements utilizing PHP, MySQL, and Javascript.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item reveal-left">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-content">
+                            <span class="timeline-date">2020 - Present</span>
+                            <h3 class="timeline-title">Lead Technical Specialist</h3>
+                            <p class="timeline-org">Independent Workshop & Consultancies</p>
+                            <p class="timeline-desc">Handling microscopic hardware repairs, circuit board soldering, firmware updates, residential wiring, breaker installations, and electrical testing protocols.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Certificates Section -->
+        <section id="certificates" class="certificates">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Qualifications</span>
+                    <h2 class="section-title">Licenses & Certificates</h2>
+                </div>
+                
+                <div class="certificates-grid">
+                    <!-- Certificate 1 -->
+                    <div class="glass-card certificate-card reveal reveal-scale delay-100">
+                        <div class="certificate-badge"><i class="fa-solid fa-award"></i></div>
+                        <span class="certificate-issuer">Udemy / Web Academy</span>
+                        <h3 class="certificate-title">Full Stack Web Development</h3>
+                        <p class="certificate-desc">Comprehensive certification validating advanced skills in HTML5, CSS3, JavaScript, PHP OOP, database management, and web application security.</p>
+                        <div class="certificate-footer">
+                            <span>Credential ID: FS-889392</span>
+                            <a href="#" class="certificate-btn">Verify <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Certificate 2 -->
+                    <div class="glass-card certificate-card reveal reveal-scale delay-200">
+                        <div class="certificate-badge"><i class="fa-solid fa-award"></i></div>
+                        <span class="certificate-issuer">Technical Training Institute</span>
+                        <h3 class="certificate-title">Mobile Phone Software & Hardware Repair</h3>
+                        <p class="certificate-desc">Certified in micro-soldering, motherboard analysis, component replacement, schematic reading, firmware flashes, and security unlocks.</p>
+                        <div class="certificate-footer">
+                            <span>Credential ID: MPHR-34820</span>
+                            <a href="#" class="certificate-btn">Verify <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Certificate 3 -->
+                    <div class="glass-card certificate-card reveal reveal-scale delay-300">
+                        <div class="certificate-badge"><i class="fa-solid fa-award"></i></div>
+                        <span class="certificate-issuer">Vocational Board</span>
+                        <h3 class="certificate-title">Electrical Installation & Maintenance</h3>
+                        <p class="certificate-desc">Authorized credential showing expertise in residential load distribution, wiring schematics, grounding structures, and electrical code compliance.</p>
+                        <div class="certificate-footer">
+                            <span>Credential ID: ELEC-99304</span>
+                            <a href="#" class="certificate-btn">Verify <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Discuss Your Project</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Left: Contact info -->
+                    <div class="contact-info-column reveal-left">
+                                     <!-- Email Card -->
+                        <div class="glass-card contact-method-card">
+                            <div class="contact-method-icon"><i class="fa-regular fa-envelope"></i></div>
+                            <div class="contact-method-content">
+                                <h4>Email Me</h4>
+                                <p><a href="mailto:maxamedkhadar2012@gmail.com">maxamedkhadar2012@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <!-- Phone Card -->
+                        <div class="glass-card contact-method-card">
+                            <div class="contact-method-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-method-content">
+                                <h4>Call Me</h4>
+                                <p><a href="tel:+252904302042">+252 90 4302042</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- WhatsApp Card -->
+                        <div class="glass-card contact-method-card">
+                            <div class="contact-method-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="contact-method-content">
+                                <h4>WhatsApp Me</h4>
+                                <p><a href="https://wa.me/252906811242" target="_blank">+252 90 6811242</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Location Card -->
+                        <div class="glass-card contact-method-card">
+                            <div class="contact-method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-method-content">
+                                <h4>Location</h4>
+                                <p>Somalia</p>
+                            </div>
+                        </div>
+
+                           <div class="footer-socials">
+                            <a href="https://github.com/Engkhadar" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                             <a href="https://wa.me/252906811242" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="mailto:maxamedkhadar2012@gmail.com" class="social-icon" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                            <a href="https://www.facebook.com/share/1TrFosNT1q/" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.tiktok.com/@khadarmobilerepairs19" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="https://t.me/khadarMobileReparing19" class="social-icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Right: Form -->
+                    <div class="glass-card contact-form-card reveal-right">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="from_name" class="form-label">Full Name</label>
+                                    <input type="text" id="from_name" name="from_name" class="form-input" placeholder="Enter your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="from_email" class="form-label">Email Address</label>
+                                    <input type="email" id="from_email" name="from_email" class="form-input" placeholder="Enter your email" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder=" Enter your subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-input" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" id="contact-submit" class="btn btn-primary" style="width: 100%;">
+                                Send Message <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                            
+                            <!-- Form feedback response -->
+                            <div id="form-message" class="form-msg"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="section-container" style="padding-top: 0; padding-bottom: 20px;">
+            <div class="footer-grid">
+                
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <a href="#hero" class="logo">ENG-<span>KHADAR</span></a>
+                    <p class="footer-desc">Professional technical solutions. Solving real-world problems through robust full-stack software and electrical engineering.</p>
+                </div>
+                
+                <!-- Quick Navigation Links Column -->
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#hero" class="footer-link">Home</a>
+                        <a href="#about" class="footer-link">About Me</a>
+                        <a href="#skills" class="footer-link">My Skills</a>
+                        <a href="#portfolio" class="footer-link">Portfolio</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- Newsletter Subscribing Column -->
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to stay updated with my latest technical writings and project releases.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Demo: Thank you for subscribing!');">
+                        <input type="email" class="newsletter-input" placeholder="Your email address" required aria-label="Newsletter Email">
+                        <button type="submit" class="newsletter-btn" aria-label="Subscribe Button"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom Section -->
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2026 Eng-Khadar. All Rights Reserved. Designed with <i class="fa-solid fa-heart" style="color: var(--accent);"></i> in Somalia.
+                </p>
+                
+                <div class="footer-socials">
+                    <a href="https://github.com/Engkhadar" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/252906811242" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:maxamedkhadar2012@gmail.com" class="social-icon" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/share/1TrFosNT1q/" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@khadarmobilerepairs19" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://t.me/khadarMobileReparing19" class="social-icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <!-- Back To Top Floating Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Scroll Back To Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Theme & Form Scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/email.js"></script>
+</body>
+</html>
